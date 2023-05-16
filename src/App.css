@@ -1,0 +1,79 @@
+:root {
+    --primary-color : blue; 
+    --secondary-color : blue;
+    --gradient-color : blue;
+    --white-color : blue;
+    --black-color : blue;
+    --text-color : blue;
+    --white-color-deam : blue;
+    --grey-text : white;
+    --input-color :white;
+    --body-color : white;
+    --card-bg : grey;
+    
+
+}
+
+a {
+    text-decoration: none;
+}
+
+
+li {
+    list-style: none;
+}
+
+.section {
+    padding: 4rem 0 2rem;
+}
+
+.container {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.icon {
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.grid {
+    display: grid;
+    align-items: center;
+}
+
+.btn {
+    padding: .6rem 1.5rem;
+    background: var(--gradient-color);
+    border-radius: 3rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.btn a {
+    color: var(--white-color);
+    font-weight: 500;
+}
+
+.btn:hover {
+    background-color: var(--secondary-color);
+}
+
+img, video {
+        width: 100%;
+        height: auto;
+}
+
+input {
+    font-size: 100%;
+}
+
+body {
+    background-color: var(--body-color);
+}
