@@ -1,0 +1,145 @@
+.header {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--white-color-deam);
+    box-shadow: 0 2px 4px rgba(2, 15, 29, 0.904);
+    width: 100%;
+    padding: 1rem;
+    z-index: 1000;
+
+
+}
+
+.navbar {
+    width: 60%;
+    margin-left: 0px;
+}
+
+.navlist {
+    width: 100%;
+    display: flex;
+    flex-direction : row ; 
+    justify-content : space-evenly
+}
+
+.logo {
+    color: var(-black-color);
+    font-weight: 600;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.logo .icon {
+    font-size: 25px;
+    color: var(--primary-color);
+    transform: translateY(5px);
+
+}
+
+.close-navbar {
+
+    display: none;
+
+}
+.toggle-navbar {
+    display : none ;
+}
+
+
+
+
+
+
+@media screen and (max-width :900px) {
+    .navbar {
+        position: absolute;
+        background: var(--white-color-deam);
+        height: max-content;
+        width: 80%;
+        border-radius: .1rem;
+        top: 6rem;
+        left: 50%;
+        transform: translate(-50%);
+        z-index: 2000;
+        box-shadow: 0 2px 4px rgba(2, 15, 29, 0.904);
+        transition: .3s ease-in-out;
+        display: none;
+    }
+
+    .navlist {
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        margin: auto;
+        padding: .5rem 0;
+
+    }
+
+    .navitem {
+        padding: .5rem 0;
+    }
+
+    .navlink {
+        color: var(--text-color);
+        font-size: 0.9rem;
+        font-weight: 600;
+
+    }
+
+    .navlink:hover {
+        color: var(--primary-color);
+    }
+
+    .btn {
+        margin-top: 1rem;
+    }
+
+    .btn a {
+        font-weight: 600;
+        color: var(--white-color);
+    }
+
+    .close-navbar {
+        position: absolute;
+        top: 1rem;
+        right: 1.5rem;
+        color: var(--primary-color);
+        display: inline;
+
+    }
+
+    .close-navbar:hover {
+        color: var(--secondary-color);
+    }
+
+    .toggle-navbar {
+        display: block;
+    }
+
+    .toggle-navbar .icon {
+        font-size: 25px;
+        color: var(--primary-color);
+    }
+    
+    .toggle-navbar.icon:hover {
+        color: var(--secondary-color);
+    
+    }
+
+
+}
+
+.show {
+    display: block;
+}
+
+@media only screen and (max-width:1175px){
+    .navbar {
+        width: 80%;
+    }
+}

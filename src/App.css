@@ -1,11 +1,11 @@
 :root {
-    --primary-color : blue; 
+    --primary-color : white; 
     --secondary-color : blue;
-    --gradient-color : blue;
-    --white-color : blue;
-    --black-color : blue;
-    --text-color : blue;
-    --white-color-deam : blue;
+    --gradient-color : radial-gradient(circle at 10% 20%, rgb(221, 49, 49) 0%, rgb(119, 0, 0) 90%);;
+    --white-color : white;
+    --black-color : black;
+    --text-color : black;
+    --white-color-deam : lightblue;
     --grey-text : white;
     --input-color :white;
     --body-color : white;
