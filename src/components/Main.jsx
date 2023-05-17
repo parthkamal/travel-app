@@ -2,6 +2,7 @@ import React from 'react';
 import '../style/Main.css';
 import Data from '../data/api';
 import Destination from '../components/Destination';
+import Footer from './Footer';
 
 
 const Main = () => {
@@ -20,6 +21,7 @@ const Main = () => {
             }
              
             </div>
+            <Footer/>
         </section>
     );
 }

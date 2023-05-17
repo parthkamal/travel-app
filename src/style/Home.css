@@ -31,7 +31,8 @@
 }
 
 .home-content {
-    width: 100%;
+    width: 100%
+    ;
     height: max-content;
     padding: 8rem 1.5rem 3rem;
     display: flex;
