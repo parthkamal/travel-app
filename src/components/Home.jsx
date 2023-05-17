@@ -5,16 +5,16 @@ import { HiFilter } from 'react-icons/hi';
 import { AiOutlineInstagram } from 'react-icons/ai';
 import { FiFacebook } from 'react-icons/fi';
 import { SiTripadvisor } from 'react-icons/si'
-import {BsListTask} from 'react-icons/bs';
-import {TbApps} from 'react-icons/tb';
+import { BsListTask } from 'react-icons/bs';
+import { TbApps } from 'react-icons/tb';
 import video from '../video/video.mp4';
 
 
 const Home = () => {
     return (
         <section className='home'>
-            <div className='overlay'></div>
-            <video src={video}  muted autoPlay loop type='video/mp4'></video>
+            <video src={video} muted autoPlay loop type='video/mp4'>
+            </video>
             <div className='home-content container'>
                 <div className='text-div'>
                     <span className='small-text'>
@@ -61,12 +61,12 @@ const Home = () => {
                         <SiTripadvisor className='icon' />
                     </div>
                     <div className='left-icons flex'>
-                    <BsListTask className='icon'/>
-                    <TbApps className='icon'/>
-
+                        <BsListTask className='icon' />
+                        <TbApps className='icon' />
                     </div>
                 </div>
             </div>
+            
         </section>
     );
 }

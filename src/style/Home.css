@@ -17,7 +17,6 @@
     bottom: 0;
     z-index: 1;
     mix-blend-mode: hard-light;
-    border: 1px solid red;
 }
 
 
@@ -28,8 +27,7 @@
     top: 0;
     bottom: 0;
     object-fit: cover;
-    z-index: 1;
-    /* z-index: 1000; */
+    z-index: 2;
 }
 
 .home-content {
@@ -154,6 +152,7 @@
 }
 
 .home-footer-icons {
+    border : 1ps solid blue; 
     width: 100%; 
     justify-content : space-between; 
 
@@ -163,7 +162,7 @@
 .home-footer-icons .icon {
     font-size: 30px; 
     margin : 0 5px; 
-    color : var(--white-color); 
+    color : var(--black-color); 
     font-weight : 600; 
 
 }

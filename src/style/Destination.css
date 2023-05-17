@@ -1,0 +1,45 @@
+.destination-container {
+    box-shadow: 2px -2px 4px rgba(2, 15, 29, 0.904);
+    margin: 10px;
+    border-radius: 13px;
+    display: flex;
+    flex-direction: column;
+    background-clip: padding-box;
+}
+
+.destination-container .title-container .title {
+    font-size: 30px;
+    font-weight: 1000;
+}
+
+.destination-container .title-container .location {
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.destination-container .price-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.destination-container button {
+    background: var(--gradient-color);
+    padding: 0.8rem 1.8rem ;
+    margin: auto;
+    color: var(--white-color);
+    border: none;
+    border-radius: 3rem;
+}
+
+
+.destination-container .price-container .fees {
+    font-size: 30px;
+    font-weight: 1200;
+}
+
+.destination-text {
+    padding: 20px;
+}
+
+
+

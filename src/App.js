@@ -2,15 +2,16 @@ import React from 'react';
 import './App.css';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
+import Main from './components/Main';
+
 
 const App = () => {
   return (
-    <div className='app'>
+    <React.Fragment>
     <Navbar/>
     <Home/>
-    {/* <Main />
-    <Footer/> */}
-    </div>
+    <Main />
+    </React.Fragment>
   );
 }
 
