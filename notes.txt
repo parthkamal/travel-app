@@ -1,0 +1,57 @@
+//notes
+
+///Box-sizing - border box means to include the padding and border in its width and height only.
+//css.map - file is a json file that contains a mapping between the compiled css code and the source css code. This can be useful  for debugging, as it allows you to see the original source code for a given line of compiled css.
+
+Scss - scss is a css preprocessor , which supports the functionality of nested classes, variables , mixins , functions , comments, imports, the compiler (sass) converts the scss code to the css code . the browser is not capable of rendering scss code directly , hence a compiler is required in this case.
+
+
+
+
+Sure, here is a formal project description for your chat app project:
+
+Project Name: Chat App
+
+Project Description:
+
+This project is a web-based chat application that allows users to communicate with each other in real time. The application is built using ReactJS, ReactIcons, and CSS. The website is fully responsive, so it can be used on any device. The application also features a loop video effect in the background.
+
+Project Goals:
+
+The goals of this project are to:
+
+Build a web-based chat application that allows users to communicate with each other in real time.
+Use ReactJS, ReactIcons, and CSS to build the application.
+Make the website fully responsive so it can be used on any device.
+Add a loop video effect to the background of the application.
+Project Timeline:
+
+The project was completed over the course of two weeks. The first week was spent planning and designing the application. The second week was spent coding and testing the application.
+
+Project Team:
+
+The project was completed by a team of one.
+
+Project Challenges:
+
+The biggest challenge of this project was learning how to use ReactJS. ReactJS is a relatively new framework, and there is not a lot of documentation available. However, I was able to find some helpful resources online, and I was able to overcome the challenge.
+
+Project Accomplishments:
+
+I am proud of the fact that I was able to complete this project on my own. I learned a lot about ReactJS, ReactIcons, and CSS. I also learned how to make a website fully responsive. I am confident that I can use the skills that I learned on this project to build other web applications in the future.
+
+Resume Points:
+
+Developed a web-based chat application using ReactJS, ReactIcons, and CSS.
+Made the website fully responsive so it can be used on any device.
+Added a loop video effect to the background of the application.
+Learned how to use ReactJS, ReactIcons, and CSS.
+Successfully completed the project on time and within budget.
+I hope this information is helpful. Please let me know if you have any other questions.
+
+
+
+
+
+
+
