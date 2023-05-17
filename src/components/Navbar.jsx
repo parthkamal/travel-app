@@ -7,12 +7,11 @@ import '../style/Navbar.css';
 
 const Navbar = () => {
 
-    const [navbarState , setNavbarState] = useState('navbar show'); 
+    const [navbarState, setNavbarState] = useState('navbar show');
 
 
     const showNavbar = () => setNavbarState('navbar show');
-    const closeNavbar = ()=> setNavbarState('navbar');
-
+    const closeNavbar = () => setNavbarState('navbar');
     return (
         <section className='navbar-section'>
             <header className='header flex'>

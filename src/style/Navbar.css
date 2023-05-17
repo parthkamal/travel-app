@@ -20,8 +20,8 @@
 .navlist {
     width: 100%;
     display: flex;
-    flex-direction : row ; 
-    justify-content : space-evenly
+    flex-direction: row;
+    justify-content: space-evenly
 }
 
 .logo {
@@ -46,8 +46,9 @@
     display: none;
 
 }
+
 .toggle-navbar {
-    display : none ;
+    display: none;
 }
 
 
@@ -125,10 +126,10 @@
         font-size: 25px;
         color: var(--primary-color);
     }
-    
+
     .toggle-navbar.icon:hover {
         color: var(--secondary-color);
-    
+
     }
 
 
@@ -138,7 +139,7 @@
     display: block;
 }
 
-@media only screen and (max-width:1175px){
+@media only screen and (max-width:1175px) {
     .navbar {
         width: 80%;
     }
